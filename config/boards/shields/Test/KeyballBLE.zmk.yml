@@ -1,8 +1,0 @@
-file_format: "1"
-id: KeyballBLE-M
-name: KeyballBLE-M
-type: shield
-url: https://github.com/Dist16384/KeyballBLE-M.git
-requires: [seeeduino_xiao_ble]
-features:
-  - keys
