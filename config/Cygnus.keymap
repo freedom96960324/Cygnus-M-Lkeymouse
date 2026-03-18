@@ -102,10 +102,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans       &trans  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LC(R)                      &kp LC(R)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &trans  &trans       &trans
-&trans  &lt 5 SPACE  &trans  &mkp MB1         &mkp MB2           &mkp MB3   &mkp MB3    &trans  &mkp MB3   &mkp MB1         &mkp MB2           &trans  &lt 5 SPACE  &trans
-&trans  &trans       &trans  &trans           &trans             &trans     &trans      &trans  &trans     &mkp MB4         &mkp MB5           &trans  &trans       &trans
-&trans  &trans       &trans  &trans           &trans             &trans     &trans      &trans  &trans                                                 &trans       &trans
+&kp LC(PAGE_UP)    &kp Q         &kp W         &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LC(R)                                     &mkp LCLK  &mkp LCLK  &mkp RCLK  &mkp RCLK  &mkp RCLK  &kp BACKSPACE
+&kp LC(PAGE_DOWN)  &kp A         &kp S         &kp D            &kp F              &kp G      &kp F2             &kp UP_ARROW    &mkp LCLK  &mkp LCLK  &mkp RCLK  &mkp RCLK  &mkp RCLK  &kp ENTER
+&kp LEFT_SHIFT     &kp Z         &kp X         &kp C            &kp V              &kp B      &trans             &kp DOWN_ARROW  &mkp LCLK  &mkp LCLK  &mkp RCLK  &mkp RCLK  &mkp RCLK  &trans
+&kp LEFT_CONTROL   &kp CAPSLOCK  &kp LEFT_ALT  &trans           &kp LEFT_ARROW     &kp SPACE  &kp RIGHT_ARROW    &kp BACKSPACE   &kp ENTER                                   &trans     &kp BACKSPACE
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
