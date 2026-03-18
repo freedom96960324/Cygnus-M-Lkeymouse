@@ -91,10 +91,10 @@
 
         ARROW {
             bindings = <
-&trans  &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans                  &trans          &trans                   &trans   &trans    &trans  &trans                          &trans  &trans
+&trans            &kp Q   &kp W         &kp E   &kp R           &kp T                                         &kp F10         &kp F11         &kp I            &kp O   &trans  &kp BACKSPACE
+&trans            &kp A   &kp S         &kp D   &kp F           &kp G      &kp F2             &kp UP_ARROW    &trans          &kp UP_ARROW    &trans           &kp L   &trans  &kp ENTER
+&kp LSHFT         &kp Z   &kp X         &kp C   &kp V           &kp B      &kp M              &kp DOWN_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &kp RC(V)
+&kp LEFT_CONTROL  &trans  &kp LEFT_ALT  &trans  &kp LEFT_ARROW  &kp SPACE  &kp RIGHT_ARROW    &kp SPACE       &kp SPACE                                                &trans  &kp RC(C)
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
